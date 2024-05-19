@@ -8,7 +8,7 @@ public class Program
     while (true)
     {
       EnsureSynced();
-      Thread.Sleep(1000);
+      Thread.Sleep(10_000);
     }
   }
 
