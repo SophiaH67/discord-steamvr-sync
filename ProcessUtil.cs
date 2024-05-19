@@ -21,7 +21,8 @@ public class ProcessUtil
 
   public static void Start(string exePath)
   {
-    Process.Start(exePath);
+    // Use explorer.exe to open the exe
+    Process.Start("explorer.exe", exePath);
   }
   public static void Start(string exePath, string args)
   {
